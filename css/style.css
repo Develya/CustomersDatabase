@@ -1,0 +1,124 @@
+/* ⬇ Polices ⬇*/
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+
+/* ⬆ Polices ⬆ */
+
+
+
+/* ⬇ Styles généraux ⬇ */
+
+body {
+    font-weight: normal;
+    font-family: Rubik, Arial, sans-serif;
+    font-size: calc(-10% + 1vw + 1vh);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+    font-size: calc(-10% + 1vw + 1vh);
+    margin-bottom: 2%;
+}
+
+td,
+th {
+    border: 1px solid #ffffff;
+    padding: 0.5em 3em 0.5em 3em;
+}
+
+th {
+    background-color: #48525a;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+/* ⬆ Styles généraux ⬆ */
+
+
+
+/* ⬇ Statistiques ⬇*/
+
+.stats-card {
+    max-width: 19rem;
+}
+
+/* ⬆ Statistiques ⬆ */
+
+
+
+/* ⬇ Détails ⬇*/
+
+.details-link {
+    background-color: transparent;
+    color: #57B2E1;
+    border: none;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.details-link:hover {
+    color: #4a98be;
+}
+
+.details-card {
+    background-color: #2a3035; 
+    width: calc(50% + 1vw + 1vh); 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 5%; 
+    padding-top: 3%;
+}
+
+.details-card-img {
+    width: 10rem; 
+    height: 10rem; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.details-not-found {
+      margin-top: 5%;
+}
+
+/* ⬆ Détails ⬆ */
+
+
+
+/* ⬇ Recherche ⬇*/
+
+.search-form>input {
+    margin-bottom: 1em;
+}
+
+.search-form {
+    margin-top: 3em;
+}
+
+.search-field {
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 5px 5px;
+    color: #ffffff;
+}
+
+.search-button {
+    background-color: #4c9dc5;;
+}
+
+.search-button:hover {
+    background-color: #438aad;
+}
+
+/* ⬆ Recherche ⬆ */
