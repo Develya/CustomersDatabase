@@ -5,5 +5,3 @@ Ce projet a été créé pour mon cours de "Sites web et multimédia" (cégep), 
 - Recherche de clients
 - Lister les clients dynamiquement
 - Statistiques dynamiques
-
-Crédits à Lotfi Derbali pour les consignes du projet, situées dans `consignes.pdf`
